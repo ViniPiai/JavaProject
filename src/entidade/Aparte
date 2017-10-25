@@ -1,0 +1,51 @@
+if (m.getSacoDormir() == 0) {
+            btnSacoDormir.setEnabled(false);
+        } else {
+            btnSacoDormir.setEnabled(true);
+        }
+        if (m.getCamaMadeira() == 0) {
+            btnCamaMadeira.setEnabled(false);
+        } else {
+            btnCamaMadeira.setEnabled(true);
+        }
+        if (m.getCamaBox() == 0) {
+            btnCamaBox.setEnabled(false);
+        } else {
+            btnCamaBox.setEnabled(true);
+        }
+
+
+
+
+
+
+
+if(m.getSacoDormir()==1){
+            btnSacoDormir.setEnabled(false);
+        }
+        if(m.getCamaMadeira()==1){
+            btnCamaMadeira.setEnabled(false);
+        }
+        if(m.getCamaBox()==1){
+            btnCamaBox.setEnabled(false);
+        }
+        if(m.getChuveiroInterior()==1){
+            btnChuveiroInterior.setEnabled(false);
+        }
+        if(m.getChuveiroEletrico()==1){
+            btnChuveiroEletrico.setEnabled(false);
+        }
+
+
+
+
+if (m.getChuveiroEletrico() == 0) {
+            btnChuveiroEletrico.setEnabled(false);
+        } else {
+            btnChuveiroEletrico.setEnabled(true);
+        }
+        if (m.getChuveiroInterior() == 0) {
+            btnChuveiroInteiror.setEnabled(false);
+        } else {
+            btnChuveiroInteiror.setEnabled(true);
+        }
